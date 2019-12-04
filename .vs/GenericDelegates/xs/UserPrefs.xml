@@ -1,0 +1,31 @@
+﻿<Properties StartupConfiguration="{6AA615F1-D8E0-4D1E-81A9-EEE6A7473021}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="GenericDelegates/Program.cs">
+    <Files>
+      <File FileName="GenericDelegates/Program.cs" Line="33" Column="6" />
+      <File FileName="GenericDelegates/Db/Database.cs" />
+      <File FileName="GenericDelegates/Db/Adress.cs" />
+      <File FileName="GenericDelegates/Db/Person.cs" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="GenericDelegates" expanded="True">
+            <Node name="GenericDelegates" expanded="True">
+              <Node name="Db" expanded="True" />
+              <Node name="Linq" expanded="True" />
+              <Node name="Program.cs" selected="True" />
+            </Node>
+            <Node name="XUnitTestPersons" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.GenericDelegates PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

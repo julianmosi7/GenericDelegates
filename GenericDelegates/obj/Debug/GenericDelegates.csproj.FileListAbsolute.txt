@@ -1,0 +1,14 @@
+/Users/julianmosi/Dokumente/School/4.Klasse/POS/Projects/GenericDelegates_PersonRepository/GenericDelegates/bin/Debug/adresses.json
+/Users/julianmosi/Dokumente/School/4.Klasse/POS/Projects/GenericDelegates_PersonRepository/GenericDelegates/bin/Debug/persons.json
+/Users/julianmosi/Dokumente/School/4.Klasse/POS/Projects/GenericDelegates_PersonRepository/GenericDelegates/bin/Debug/GenericDelegates.exe.config
+/Users/julianmosi/Dokumente/School/4.Klasse/POS/Projects/GenericDelegates_PersonRepository/GenericDelegates/bin/Debug/GenericDelegates.exe
+/Users/julianmosi/Dokumente/School/4.Klasse/POS/Projects/GenericDelegates_PersonRepository/GenericDelegates/bin/Debug/GenericDelegates.pdb
+/Users/julianmosi/Dokumente/School/4.Klasse/POS/Projects/GenericDelegates_PersonRepository/GenericDelegates/bin/Debug/EntityFramework.dll
+/Users/julianmosi/Dokumente/School/4.Klasse/POS/Projects/GenericDelegates_PersonRepository/GenericDelegates/bin/Debug/EntityFramework.SqlServer.dll
+/Users/julianmosi/Dokumente/School/4.Klasse/POS/Projects/GenericDelegates_PersonRepository/GenericDelegates/bin/Debug/Newtonsoft.Json.dll
+/Users/julianmosi/Dokumente/School/4.Klasse/POS/Projects/GenericDelegates_PersonRepository/GenericDelegates/bin/Debug/EntityFramework.xml
+/Users/julianmosi/Dokumente/School/4.Klasse/POS/Projects/GenericDelegates_PersonRepository/GenericDelegates/bin/Debug/EntityFramework.SqlServer.xml
+/Users/julianmosi/Dokumente/School/4.Klasse/POS/Projects/GenericDelegates_PersonRepository/GenericDelegates/bin/Debug/Newtonsoft.Json.xml
+/Users/julianmosi/Dokumente/School/4.Klasse/POS/Projects/GenericDelegates_PersonRepository/GenericDelegates/obj/Debug/GenericDelegates.csproj.CopyComplete
+/Users/julianmosi/Dokumente/School/4.Klasse/POS/Projects/GenericDelegates_PersonRepository/GenericDelegates/obj/Debug/GenericDelegates.exe
+/Users/julianmosi/Dokumente/School/4.Klasse/POS/Projects/GenericDelegates_PersonRepository/GenericDelegates/obj/Debug/GenericDelegates.pdb
