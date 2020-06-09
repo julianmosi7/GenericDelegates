@@ -1,0 +1,13 @@
+C:\Users\mosha\Documents\Schule\4.Klasse\POS\Project10\GenericDelegates\NorthwindDbLib\bin\Debug\Persons.mdf
+C:\Users\mosha\Documents\Schule\4.Klasse\POS\Project10\GenericDelegates\NorthwindDbLib\bin\Debug\Persons_log.ldf
+C:\Users\mosha\Documents\Schule\4.Klasse\POS\Project10\GenericDelegates\NorthwindDbLib\bin\Debug\NorthwindDbLib.dll.config
+C:\Users\mosha\Documents\Schule\4.Klasse\POS\Project10\GenericDelegates\NorthwindDbLib\bin\Debug\NorthwindDbLib.dll
+C:\Users\mosha\Documents\Schule\4.Klasse\POS\Project10\GenericDelegates\NorthwindDbLib\bin\Debug\NorthwindDbLib.pdb
+C:\Users\mosha\Documents\Schule\4.Klasse\POS\Project10\GenericDelegates\NorthwindDbLib\bin\Debug\EntityFramework.dll
+C:\Users\mosha\Documents\Schule\4.Klasse\POS\Project10\GenericDelegates\NorthwindDbLib\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\mosha\Documents\Schule\4.Klasse\POS\Project10\GenericDelegates\NorthwindDbLib\bin\Debug\EntityFramework.xml
+C:\Users\mosha\Documents\Schule\4.Klasse\POS\Project10\GenericDelegates\NorthwindDbLib\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\mosha\Documents\Schule\4.Klasse\POS\Project10\GenericDelegates\NorthwindDbLib\obj\Debug\NorthwindDbLib.csprojAssemblyReference.cache
+C:\Users\mosha\Documents\Schule\4.Klasse\POS\Project10\GenericDelegates\NorthwindDbLib\obj\Debug\NorthwindDbLib.csproj.CopyComplete
+C:\Users\mosha\Documents\Schule\4.Klasse\POS\Project10\GenericDelegates\NorthwindDbLib\obj\Debug\NorthwindDbLib.dll
+C:\Users\mosha\Documents\Schule\4.Klasse\POS\Project10\GenericDelegates\NorthwindDbLib\obj\Debug\NorthwindDbLib.pdb

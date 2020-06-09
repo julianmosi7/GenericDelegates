@@ -4,7 +4,8 @@ using System.Collections.Generic;
 using System.Linq;
 //using GenericDelegates.Linq;
 
-using GenericDelegates.Db;
+
+using NorthwindDbLib;
 
 namespace GenericDelegates
 {
@@ -13,8 +14,17 @@ namespace GenericDelegates
 
     private static void Main()
     {
-      var db = new Database().Init();
+      var db = new NorthwindContext();
+            try
+            {
+                int nrCategories = db.Categories.Count();
+                Console.WriteLine($"{nrCategories} Categories in Db");
+            }catch(Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
 
+      
       Console.WriteLine("--------------------- MalesStreetNrLessThan10");
       MalesStreetNrLessThan10(db).Select(x => $"{x.last_name} {x.first_name}").Print();
       Console.WriteLine("--------------------- FirstnamesInChina");
@@ -27,12 +37,14 @@ namespace GenericDelegates
       PersonsFromIndonesia(db).Select(x => $"{x.last_name} {x.first_name}").Print();
 
       Console.ReadKey();
+      
     }
 
     public static List<Person> MalesStreetNrLessThan10(Database db)
     {
             return db.Persons
                     .Where(x => Int32.Parse(x.Adress.streetnumber) < 10)
+                    .Where(x => x.gender=="Male")
                     .ToList();
     }
 
@@ -40,28 +52,30 @@ namespace GenericDelegates
     {
             return db.Persons
                 .Where(x => x.Adress.country == "China")
-                .OrderBy(x => x)
                 .Select(x => x.first_name)
                 .Distinct()
+                .OrderBy(x => x)
                 .ToList();
     }
 
     public static int MaxStreetNrPhilippines(Database db)
     {
-            return db.Persons
-                .Where(x => x.Adress.country == "Philippines")
-                .Select(x => Int32.Parse(x.Adress.streetnumber))
+            return db.Adresses
+                .Where(x => x.country == "Philippines")
+                .Select(x => Int32.Parse(x.streetnumber))
                 .Max();
     }
 
     public static List<string> CountriesWithEmailEndingWithOrg(Database db)
     {
             return db.Persons
-                .Where(x => x.email.Contains(".org"))
-                .OrderBy(x => x)
+                .Where(x => x.email.EndsWith(".org"))
                 .Select(x => x.Adress.country)
+                .Distinct()
+                .OrderBy(x => x)
                 .ToList();
                 
+            
     }
 
     public static List<Person> PersonsFromIndonesia(Database db)
@@ -72,7 +86,6 @@ namespace GenericDelegates
                  .Skip(3)
                  .Take(4)
                  .ToList();
-                 
     }
   }
 }

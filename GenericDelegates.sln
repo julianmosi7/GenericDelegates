@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericDelegates", "Generic
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XUnitTestPersons", "XUnitTestPersons\XUnitTestPersons.csproj", "{0014E813-73F9-4AC6-A20D-2F3BCC248B66}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NorthwindDbLib", "NorthwindDbLib\NorthwindDbLib.csproj", "{C688AD4F-BF37-4E1A-B343-DF9763CC8DA8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{0014E813-73F9-4AC6-A20D-2F3BCC248B66}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0014E813-73F9-4AC6-A20D-2F3BCC248B66}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0014E813-73F9-4AC6-A20D-2F3BCC248B66}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C688AD4F-BF37-4E1A-B343-DF9763CC8DA8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C688AD4F-BF37-4E1A-B343-DF9763CC8DA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C688AD4F-BF37-4E1A-B343-DF9763CC8DA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C688AD4F-BF37-4E1A-B343-DF9763CC8DA8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
